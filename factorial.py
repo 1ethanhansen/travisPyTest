@@ -7,7 +7,7 @@ def factorial(number):
 		total = 1
 		while (number > 1) :
 			total *= number
-			number -= 2
+			number -= 1
 		return total
 	else:
 		print("that is an invalid input")
