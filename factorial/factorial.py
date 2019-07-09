@@ -12,3 +12,19 @@ def calc_factorial(number):
 	else:
 		print("that is an invalid input")
 		return 0
+
+def is_prime(number):
+	prime = [True for i in range(number+1)]
+	p = 2
+	while (p * p <= number):
+		if (prime[p] == True):
+			p += 1
+			continue
+
+		for i in range(p * 2, number+1, p):
+			if (i == number):
+				return False
+			prime[i] = False
+		p += 1
+
+	return True

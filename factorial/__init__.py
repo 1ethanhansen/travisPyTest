@@ -1,1 +1,1 @@
-from .factorial import calc_factorial
+from .factorial import *
