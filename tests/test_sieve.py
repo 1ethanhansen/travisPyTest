@@ -1,6 +1,6 @@
 import pytest
 
-from factorial import is_prime
+from factorial.factorial import is_prime
 
 def test_sieve_10():
         assert(is_prime(10) == False)

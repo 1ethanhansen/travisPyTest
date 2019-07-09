@@ -1,6 +1,6 @@
 import pytest
 
-from factorial import calc_factorial
+from factorial.factorial import calc_factorial
 
 def test_factorial_1():
 	assert(calc_factorial(1) == 1)
