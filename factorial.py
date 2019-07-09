@@ -4,9 +4,10 @@
 
 def factorial(number):
 	if (number > 0) :
-		while (counter > 1) :
-			total *= counter
-			counter -= 2
+		total = 1
+		while (number > 1) :
+			total *= number
+			number -= 2
 		return total
 	else:
 		print("that is an invalid input")
