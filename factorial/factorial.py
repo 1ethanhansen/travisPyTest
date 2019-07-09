@@ -17,7 +17,7 @@ def is_prime(number):
 	prime = [True for i in range(number+1)]
 	p = 2
 	while (p * p <= number):
-		if (prime[p] == True):
+		if (prime[p] == False):
 			p += 1
 			continue
 
