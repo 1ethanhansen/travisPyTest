@@ -2,7 +2,7 @@
 
 #calculates the factorial of a number
 
-def factorial(number):
+def calc_factorial(number):
 	if (number > 0) :
 		total = 1
 		while (number > 1) :
