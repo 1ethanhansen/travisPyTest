@@ -1,6 +1,6 @@
 import pytest
 
-from factorial.factorial import factorial
+from factorial import factorial
 
 def test_factorial_6():
 	assert(factorial(6) == 720)
